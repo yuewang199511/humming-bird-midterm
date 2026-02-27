@@ -71,13 +71,13 @@ docker build -t hummingbird-api .
 Tag:
 
 ```bash
-docker tag hummingbird-api:latest 212315286085.dkr.ecr.us-west-2.amazonaws.com/hummingbird-production-api:latest
+docker tag hummingbird-api:latest <your-accoutn-id>.dkr.ecr.us-west-2.amazonaws.com/hummingbird-production-api:latest
 ```
 
 Push:
 
 ```bash
-docker push 212315286085.dkr.ecr.us-west-2.amazonaws.com/hummingbird-production-api:latest
+docker push <your-accoutn-id>.dkr.ecr.us-west-2.amazonaws.com/hummingbird-production-api:latest
 ```
 
 ### 4) Verify it’s running
