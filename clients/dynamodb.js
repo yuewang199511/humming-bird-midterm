@@ -152,7 +152,7 @@ const setMediaStatus = async ({ mediaId, newStatus }) => {
     TableName,
     Key: {
       PK: { S: `MEDIA#${mediaId}` },
-      SK: { S: 'metadata' },
+      SK: { S: 'METADATA' },
     },
     UpdateExpression: 'SET #status = :newStatus',
     ExpressionAttributeNames: { '#status': 'status' },
